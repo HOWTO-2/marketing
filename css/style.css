@@ -1,0 +1,123 @@
+/* CSS Zero */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	max-width:100%;
+	border:1px solid grey;
+} 
+
+/* HOME PAGE CSS */
+div {
+    border: 0.5px solid #000000;
+}
+#home-page {
+	background-image: url(https://i.picsum.photos/id/1048/5616/3744.jpg?hmac=N5TZKe4gtmf4hU8xRs-zbS4diYiO009Jni7n50609zk);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.container {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  justify-content:space-around;
+  margin-top:16.5%;
+  
+}
+.container div {
+  margin-top: 2.55%
+}
+.slogan-text div{
+  margin:2.5%;
+  display:flex;
+  justify-content:space-between;
+}
+
+
+
+
+/* END OF HOME PAGE CSS */
+/* ABOUT PAGE CSS */
+/* #about-header{
+	margin-top:15%;
+	background-image: url(C:\Users\AB\Documents\GitHub\How-To-Marketing-Page\assests\jumboimagetop.jpg)
+	  
+  } */
+  #about-nav{
+	display: flex;
+	  flex-direction: row;
+	  justify-content: space-evenly;
+  }
+  #skills{
+	background-color:#E0FFFF;
+  }
+  #skills h2{
+	text-align:center;
+	padding:3% 0;
+  }
+  .contanier{
+	display:flex;
+	justify-content:space-around;
+  }
+  #skills .contanier div{
+	text-align:center;
+	width:28%;
+  }
+  #skills .contanier div p{
+	text-align:justify;
+  }
+  
+  #skills2{
+	background-color:#E0FFFF;
+  }
+  #skills2 h2{
+	text-align:center;
+	padding:3% 0;
+  }
+  .contanier2{
+	display:flex;
+	justify-content:space-around;
+  }
+  #skills2 .contanier2 div{
+	text-align:center;
+	width:28%;
+  }
+  #skills2 .contanier2 div p{
+	text-align:justify;
+  }
+  #about-footer{
+	  margin-bottom: 10%;
+  }
+  #about-footer nav{
+	width:80%;
+	display:flex;
+	justify-content:space-evenly;
+  
+	
+  }
+  #about-footer nav:hover{
+	color:#fde769;
+  }
