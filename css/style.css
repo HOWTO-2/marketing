@@ -26,6 +26,9 @@ time, mark, audio, video {
 	max-width:100%;
 	border:1px solid grey;
 } 
+h1, h2, h3, p, a{
+  font-family: 'Rowdies', cursive;
+}
 
 /* HOME PAGE CSS */
 div {
@@ -47,15 +50,18 @@ div {
   margin-top:16.5%;
   
 }
-.container div {
-  margin-top: 2.55%
-}
+
 .slogan-text div{
   margin:2.5%;
   display:flex;
   justify-content:space-between;
 }
-
+.slogan-text p{
+  font-size: 1rem;
+}
+#name h1, a {
+  font-size: 2rem;
+}
 
 
 
@@ -66,17 +72,23 @@ div {
 	background-image: url(C:\Users\AB\Documents\GitHub\How-To-Marketing-Page\assests\jumboimagetop.jpg)
 	  
   } */
+  h3 {
+    font-size:2rem
+  }
   #about-nav{
 	display: flex;
 	  flex-direction: row;
-	  justify-content: space-evenly;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
   }
+ 
   #skills{
 	background-color:#E0FFFF;
   }
   #skills h2{
 	text-align:center;
-	padding:3% 0;
+  padding:3% 0;
+  font-size: 3rem;
   }
   .contanier{
 	display:flex;
@@ -87,7 +99,9 @@ div {
 	width:28%;
   }
   #skills .contanier div p{
-	text-align:justify;
+  text-align:justify;
+  font-size:1.5rem
+  
   }
   
   #skills2{
@@ -106,15 +120,17 @@ div {
 	width:28%;
   }
   #skills2 .contanier2 div p{
-	text-align:justify;
+  text-align:justify;
+  font-size:1.5rem
   }
   #about-footer{
-	  margin-bottom: 10%;
+	  margin-bottom: 5%;
   }
   #about-footer nav{
-	width:80%;
+	margin-top: 10%;
 	display:flex;
-	justify-content:space-evenly;
+  justify-content:space-evenly;
+  font-size: 2rem;
   
 	
   }
