@@ -29,6 +29,9 @@ time, mark, audio, video {
 h1, h2, h3, p, a{
   font-family: 'Rowdies', cursive;
 }
+a{
+  margin-right: 20px;
+}
 
 /* HOME PAGE CSS */
 div {
@@ -51,6 +54,7 @@ div {
   
 }
 
+
 .slogan-text div{
   margin:2.5%;
   display:flex;
@@ -59,6 +63,7 @@ div {
 .slogan-text p{
   font-size: 1rem;
 }
+
 #name h1, a {
   font-size: 2rem;
 }
@@ -75,13 +80,16 @@ div {
   h3 {
     font-size:2rem
   }
-  #about-nav{
+  #about-nav div {
 	display: flex;
 	  flex-direction: row;
     justify-content: space-evenly;
     font-size: 1.5rem;
   }
- 
+  
+ .logo h1 {
+  font-size:2rem
+ }
   #skills{
 	background-color:#E0FFFF;
   }
@@ -137,3 +145,63 @@ div {
   #about-footer nav:hover{
 	color:#fde769;
   }
+/* RESPONSIVENESS TO MOBILE */
+  @media(max-width:500px){
+    .container {
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      justify-content:space-around;
+      margin-top:55%;
+      text-align: center;
+    }
+    .container div{
+      margin-top: 1.5%;
+      margin-bottom: 5%;
+    }
+    /* .container nav{
+      display: flex;
+      flex-direction: column;
+    } */
+    .slogan-text p {
+      font-size: 1rem;
+    }
+    
+    #name h1, a {
+      font-size: 1.5rem;
+    }
+    #about-nav div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 1.5rem;
+      margin-top: 3%;
+      margin-bottom: 1.5%;
+      }
+      .contanier{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+      #skills .contanier div{
+        text-align:center;
+        width:80%;
+        margin-bottom: 5%;
+      }
+      .contanier2{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+      #skills2 .contanier2 div{
+        text-align:center;
+        width:80%;
+        margin-bottom: 5%;
+        }
+
+  
+
+  } 
