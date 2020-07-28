@@ -103,6 +103,9 @@ a{
 	display:flex;
 	justify-content:space-around;
   }
+  #skills{
+    padding-top:2.5%;
+  }
   #skills .contanier div{
 	text-align:center;
 	width:28%;
@@ -142,6 +145,8 @@ a{
   }
   footer{
     background-color: #DCDCDC;
+    padding-top: 10%;
+    padding-bottom: 2.5%;
   }
 /* RESPONSIVENESS TO MOBILE */
   @media(max-width:500px){
