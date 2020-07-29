@@ -97,10 +97,13 @@ a{
     justify-content: space-evenly;
     font-size: 1.5rem;
   }
-  
+  .container-about{
+    border: 5px double skyblue;
+  }
  .logo h1 {
   font-size:4rem;
   padding-bottom: 3.25%;
+ 
  }
  .navbox a{
    font-size: 4rem;
@@ -124,10 +127,11 @@ a{
   }
   #skills .contanier div{
 	text-align:center;
-	width:28%;
+  width:28%;
+  border: 15px dotted skyblue ;
   }
   #skills .contanier div p{
-  text-align:justify;
+  
   font-size:1.5rem
   
   }
@@ -145,10 +149,11 @@ a{
   }
   #skills2 .contanier2 div{
 	text-align:center;
-	width:28%;
+  width:28%;
+  border: 15px dotted skyblue ;
   }
   #skills2 .contanier2 div p{
-  text-align:justify;
+  
   font-size:1.5rem
   }
   
